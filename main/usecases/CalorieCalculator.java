@@ -8,6 +8,7 @@ public class CalorieCalculator {
      * @param bmr the Basal Metabolic Rate
      * @param weightToLose the weight to lose for an individidual and is in kilograms
      * @param activityLevel the activity level of an individual and the factor is from 1.2 to 1.9
+     * @return returns the caloric needed to lose the weightToLose
      */
     public static double calculateCalorieIntakeForWeightLoss(double bmr, double weightToLose, double activityLevel) {
         return Math.round(((bmr* activityLevel ) * 30 - (weightToLose * 7700)) / 30);
