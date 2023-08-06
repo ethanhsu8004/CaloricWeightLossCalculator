@@ -20,6 +20,9 @@ public class MaleBRMCalculatorTest {
 
     }
 
+    /**
+     * Tests to make sure getters and setters work properly for a male
+     */
     @Test
     public void testGettersSetters(){
         Assertions.assertEquals(21, male.getAge());
@@ -33,6 +36,9 @@ public class MaleBRMCalculatorTest {
         Assertions.assertEquals(1.9, male.getActivityLevel().getValue());
     }
     @Test
+    /**
+     * Tests to make sure that the bmr is calculated correctly for a male
+     */
     public void testCalculateBMR() {
         // Test with some sample data
         MaleBMRCalculator calculator = new MaleBMRCalculator();

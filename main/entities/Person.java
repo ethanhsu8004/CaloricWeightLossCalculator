@@ -7,6 +7,7 @@ public class Person {
     private double height;
     private double weightToLose;
     private ActivityLevel activityLevel;
+
     /**
      * Constructor for the Person class
      * @param age in years for the Person
@@ -29,6 +30,7 @@ public class Person {
     public void setGender(Gender gender) {
         this.gender = gender;
     }
+
     public int getAge() {
         return age;
     }

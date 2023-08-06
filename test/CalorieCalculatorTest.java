@@ -5,6 +5,7 @@ import main.usecases.CalorieCalculator;
 
 public class CalorieCalculatorTest {
 
+
     @Test
     public void testCaloriesNeeded() {
         double sampleCalc = CalorieCalculator.calculateCalorieIntakeForWeightLoss(1500, 1.5, 1.6);

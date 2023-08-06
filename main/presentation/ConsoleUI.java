@@ -5,7 +5,10 @@ import java.util.Scanner;
 import main.entities.Person;
 import main.entities.Gender;
 import main.entities.ActivityLevel;
-
+/**
+ * This is the ConsoleUI and is what the user sees. Prompts all needed information so that the appropriate classes
+ * can be called and output the caloric intake needed to lose weight. This is called by the CaloricWeightLossCalculator
+ */
 public class ConsoleUI {
     private static Scanner scanner = new Scanner(System.in);
 
